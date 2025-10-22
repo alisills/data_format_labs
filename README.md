@@ -75,11 +75,11 @@ Consider the following attempt to create a student record in JSON:
 
   "StudentID": 2001, 
 
-  "Name": 'Ravi Kumar', 
+  "Name": 'Ravi Kumar', missing " "
 
-  "Subjects": ["Maths", "Science", "English",], 
+  "Subjects": ["Maths", "Science", "English",], no comma need after "English",
 
-  "Grades": {"Maths": 90, "Science": 85, "English": 92,} 
+  "Grades": {"Maths": 90, "Science": 85, "English": 92,} no need for added comma after 92
 
 } 
 
@@ -91,11 +91,16 @@ Consider the following attempt to create a student record in JSON:
 
 3. List the data types supported in JSON present in this dataset. 
 
-4. Add a nested JSON for "Address" including "Street", "City", "Zip". 
+    The datasets are numbers and strings.
+
+4. Add a nested JSON for "Address" including "Street", "City", "Zip".
+    
 
 5. Explain how data types differ from data formats in this context. 
+    The data format in this case is JSON and the data types are numbers and strings. 
 
 6. Discuss one real-world use case where student data like this is shared using JSON and why JSON is advantageous. 
+    One way this data can be used is to store with in a Student Information System to be retreived when need by authorized individuals. 
 
  
 
@@ -103,13 +108,6 @@ Consider the following attempt to create a student record in JSON:
 
  
 
- 
-
- 
-
- 
-
- 
 
 Lab 3. Building Complex Nested JSON for Real-World APIs
 

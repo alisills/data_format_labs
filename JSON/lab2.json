@@ -2,10 +2,24 @@
 
   "StudentID": 2001, 
 
-  "Name": 'Ravi Kumar', 
+  "Name": "Ravi Kumar", 
 
-  "Subjects": ["Maths", "Science", "English",], 
+  "Subjects": [
+    "Maths", 
+    "Science", 
+    "English"
+    ], 
 
-  "Grades": {"Maths": 90, "Science": 85, "English": 92,} 
+  "Grades": {
+    "Maths": 90, 
+    "Science": 85, 
+    "English": 92
+    },
+
+    "Address": {
+        "Street": "PO Box 75562",
+        "City": "North Chesterfield",
+        "Zip": "23236"
+    }
 
 } 
