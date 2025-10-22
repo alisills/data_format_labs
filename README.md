@@ -8,29 +8,54 @@ Lab 1. Exploring Data Types vs Data Formats using JSON
 
 You are given the following mixed dataset: 
 
-EmployeeID: 101,   
+EmployeeID: 101,   number
 
-EmployeeName: "Sathwik",   
+EmployeeName: "Sathwik",   string
 
-IsActive: true,   
+IsActive: true,   boolean
 
-JoiningDate: 11-SEP-2025,   
+JoiningDate: 11-SEP-2025,   null
 
-Salary: 50,00 INR 
+Salary: 50,00 INR null
 
 1. Identify data types of each value. 
 
 2. Convert the above dataset into a valid JSON format. 
 
+{
+    "Employee ID": 101,
+    "EmployeeName": "Sathwick",
+    "IsActive": true,
+    "JoiningDate": "11-SEP-2025",
+    "Salary": "100,000 USD",
+}
+
 3. Explain why JSON is considered a data format rather than a data type. 
+
+JSON is considered a data format rather than a data type due to it defining and controling data types. 
 
  4. Create a nested JSON version by adding "Address" (with "City", "State", "PinCode") inside the JSON.  
 
+ {
+    "Employee ID": 101,
+    "EmployeeName": "Sathwick",
+    "IsActive": true,
+    "JoiningDate": "11-SEP-2025",
+    "Salary": "100,000 USD",
+
+    "Address": "PO Box 75562",
+    "City": "North Chesterfield",
+    "State": "Virginia",
+    "Zip Code": 23236
+}
+
 5. Point out one invalid JSON representation for this dataset and correct it. 
+
+Both the date and salary was missing quotation marks which would make them a string. 
 
 6. Justify why JSON is widely used in real-world applications for such data. 
 
- 
+ JSON is widely used in real-world applications for such data because of its readibility, lightweight, efficient and simplicity. 
 
  
 
