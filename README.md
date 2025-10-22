@@ -125,11 +125,37 @@ Ticket details (PNR, Price, Currency).
 
 4. Show one invalid JSON version of your answer and explain why it fails. 
 
+{
+    Passenger Details: 
+        {
+            "Name": "Ali",
+            "Age": 32,
+            "IsForeignNational": false
+        },
+
+    "Flight Details":
+        {
+            "FlightNo": "DTK253",
+            "Departure": "3:25 AM",
+            "Arrival": "5:25 PM"
+        },
+
+    "Ticket Details": 
+        {
+            "PNR": "RXINLH",
+            "Price": 1011,
+            "Currency": "USD"
+        }
+    
+} This is invalid due to passenger details missing quotations 
+
 5. Compare data types vs data formats in the context of your solution. 
+
+My solution includes strings, numbers, and a boolean
 
 6. Explain the advantages of JSON over XML in airline booking systems. 
 
-
+The advantage of using JSON over XML in the airline booking is having cleaner code and more control over data types. 
 
 Lab 4. Deep Dive into JSON in the Real World
 

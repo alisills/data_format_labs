@@ -1,0 +1,23 @@
+{
+    "Passenger Details": 
+        {
+            "Name": "Ali",
+            "Age": 32,
+            "IsForeignNational": false
+        },
+
+    "Flight Details":
+        {
+            "FlightNo": "DTK253",
+            "Departure": "3:25 AM",
+            "Arrival": "5:25 PM"
+        },
+
+    "Ticket Details": 
+        {
+            "PNR": "RXINLH",
+            "Price": 1011,
+            "Currency": "USD"
+        }
+    
+}

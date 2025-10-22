@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<flight>
+    <passenger_details>
+        <name>Ali</name>
+        <age>32</age>
+        <is_foreign_national>false</is_foreign_national>
+    </passenger_details>
+    <flight_details>
+        <flight_no>DTK253</flight_no>
+        <departure>3:25 AM</departure>
+        <arrival>5:25 PM</arrival>
+    </flight_details>
+    <ticket_details>
+        <pnr>RXINLH</pnr>
+        <price>$1,011</price>
+        <currency>USD</currency>
+    </ticket_details>
+</flight>
