@@ -1,1 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<student_information>
+    <student_id>2001</student_id>
+    <name>Ravi Kumar</name>
+    <subject_grades>
+        <maths>90</maths>
+        <science>85</science>
+        <english>92</english>
+    </subject_grades>
+    <address>
+        <street>PO Box 75562</street>
+        <city>North Chesterfield</city>
+        <zip>23236</zip>
+    </address>
+</student_information>
