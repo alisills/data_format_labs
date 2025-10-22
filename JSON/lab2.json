@@ -1,0 +1,11 @@
+{ 
+
+  "StudentID": 2001, 
+
+  "Name": 'Ravi Kumar', 
+
+  "Subjects": ["Maths", "Science", "English",], 
+
+  "Grades": {"Maths": 90, "Science": 85, "English": 92,} 
+
+} 
