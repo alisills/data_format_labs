@@ -1,0 +1,29 @@
+{
+    "_comment": "Lab 1. Exploring Data Types vs Data Formats using JSON
+
+    You are given the following mixed dataset: 
+
+    EmployeeID: 101,   
+
+    EmployeeName: "Sathwik",   
+
+    IsActive: true,   
+
+    JoiningDate: 11-SEP-2025,   
+
+    Salary: 50,00 INR 
+
+    1. Identify data types of each value. 
+
+    2. Convert the above dataset into a valid JSON format. 
+
+    3. Explain why JSON is considered a data format rather than a data type. 
+
+    4. Create a nested JSON version by adding "Address" (with "City", "State", "PinCode") inside the JSON.  
+
+    5. Point out one invalid JSON representation for this dataset and correct it. 
+
+    6. Justify why JSON is widely used in real-world applications for such data. "
+
+}
+
