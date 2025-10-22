@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<purchase_order>
+    <order_id>50045</order_id>
+    <customer>Anil Kumar</customer>
+    <laptop>7500</laptop>
+    <mouse>1200</mouse>
+    <payment_status>Success</payment_status>
+</purchase_order>

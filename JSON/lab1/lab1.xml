@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employee_information>
+
+    <employee_id>101</employee_id>
+    <employee_name>Sathwick</employee_name>
+    <is_active>true</is_active>
+    <joining_date>11-SEP-2025</joining_date>
+    <salary>$100,000</salary>
+    <address>PO Box 75562</address>
+    <city>North Chesterfield</city>
+    <state?>Virginia</state?>
+    <zip_code>23236</zip_code>
+
+</employee_information>

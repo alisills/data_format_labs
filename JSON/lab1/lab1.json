@@ -1,0 +1,13 @@
+{
+    "Employee ID": 101,
+    "EmployeeName": "Sathwick",
+    "IsActive": true,
+    "JoiningDate": "11-SEP-2025",
+    "Salary": "100,000 USD",
+
+    "Address": "PO Box 75562",
+    "City": "North Chesterfield",
+    "State": "Virginia",
+    "Zip Code": 23236
+}
+

@@ -167,30 +167,48 @@ PaymentStatus: "Success"
 1. Create a valid nested JSON for this dataset. 
 
 2. Identify JSON-supported data types used here. 
+    I used numbers and strings.
 
-3. Show one invalid JSON version (with missing quotes or extra commas). 
+3. Show one invalid JSON version (with missing quotes or extra commas).
+
+{
+    "OrderID": 50045,
+    "Customer": "Anil Kumar",
+    "Products": [
+        {
+            "Name": Laptop,
+            "Price": 75000
+        },
+        {
+            "Name": "Mouse",,
+            "Price": 1200
+        }
+    ],
+    "PaymentStatus": "Success"
+}
 
 4. Discuss why JSON is a data format and not a data type. 
+    JSON is a data format due to it having the capabilities to manipulate and store data types. 
 
 5. Compare JSON vs another data format (XML or YAML) for this use case. 
 
 6. Explain the real-world advantage of using JSON for e-commerce APIs. 
-
+    The real-world advantage of using JSON for e-commerce APIs is being able to utilize data type specificity. 
  
 
 Lab 5. Data Type & Format Transformation Challenge
 
 You are tasked with converting hospital patient data: 
 
-PatientID: 9001,   
+PatientID: 9001, - number
 
-Name: "Rahul",   
+Name: "Rahul", - string
 
-Age: 29,   
+Age: 29, - number   
 
-IsInsured: true,   
+IsInsured: true, - boolean   
 
-Allergies: ["Peanuts", "Dust"] 
+Allergies: ["Peanuts", "Dust"] - array with strings
 
 1. Identify data types for each attribute. 
 
@@ -199,12 +217,28 @@ Allergies: ["Peanuts", "Dust"]
 3. Create a nested JSON by adding "MedicalHistory" (PastIllness, CurrentMedication). 
 
 4. Show one invalid JSON version and explain the mistake. 
+{
+    "PatientID": 9001,
+    "Name": "Rahul",
+    "Age": 29,
+    "IsInsured": true,
+    "Allergies": [
+        "Peanusts",
+        "Dust"
+    ],
+    "MedicalHistory": [
+        "PastIllness": "Flu",
+        "CurrentMedication": "Zoloft"
+    ]
+}
 
 5. Compare JSON with CSV for storing this data. 
 
+This data is very appropriate to put in a CSV file, however the data can be challenging when the client has multiple inputs for a given category such as allergies. 
+
 6. Highlight why JSON is advantageous in healthcare data exchange. 
 
- 
+JSON is advantageous in healthcare data exchange due to being able to neatly organize massive amounts of data.
 
 Lab 6. Advanced Comparison: JSON vs Other Data Formats
 

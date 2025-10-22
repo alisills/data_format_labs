@@ -1,0 +1,14 @@
+{
+    "PatientID": 9001,
+    "Name": "Rahul",
+    "Age": 29,
+    "IsInsured": true,
+    "Allergies": [
+        "Peanuts",
+        "Dust"
+    ],
+    "MedicalHistory": [
+        "PastIllness",
+        "CurrentMedication"
+    ]
+}

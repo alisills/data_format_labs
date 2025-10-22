@@ -1,0 +1,15 @@
+{
+    "OrderID": 50045,
+    "Customer": "Anil Kumar",
+    "Products": [
+        {
+            "Name": "Laptop",
+            "Price": 75000
+        },
+        {
+            "Name": "Mouse",
+            "Price": 1200
+        }
+    ],
+    "PaymentStatus": "Success"
+}

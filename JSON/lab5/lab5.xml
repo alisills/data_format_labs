@@ -1,0 +1,11 @@
+<patient>
+    <id>9001</id>
+    <name>Rahul</name>
+    <age>29</age>
+    <is_insured>yes</is_insured>
+    <allergies>Peanuts and Dust</allergies>
+    <medical_history>
+        <past_illness></past_illness>
+        <current_medication></current_medication>
+    </medical_history>
+</patient>
