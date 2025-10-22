@@ -60,13 +60,6 @@ Both the date and salary was missing quotation marks which would make them a str
  
 
  
-
- 
-
- 
-
- 
-
 Lab 2. Valid vs Invalid JSON with Nested Structures
 
 Consider the following attempt to create a student record in JSON: 
@@ -156,6 +149,8 @@ My solution includes strings, numbers, and a boolean
 6. Explain the advantages of JSON over XML in airline booking systems. 
 
 The advantage of using JSON over XML in the airline booking is having cleaner code and more control over data types. 
+
+
 
 Lab 4. Deep Dive into JSON in the Real World
 
