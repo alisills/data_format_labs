@@ -104,11 +104,6 @@ Consider the following attempt to create a student record in JSON:
 
  
 
- 
-
- 
-
-
 Lab 3. Building Complex Nested JSON for Real-World APIs
 
 Imagine you are building a flight booking API. The booking data must include: 
@@ -122,6 +117,9 @@ Ticket details (PNR, Price, Currency).
 1. Design a nested JSON structure containing all the above data. 
 
 2. Explain which data types are used for each field. 
+    Passenger details - string, number, and boolean.
+    Flight details - strings.
+    Ticket details - strings and number.
 
 3. Convert this into two different data formats (XML and CSV). 
 
@@ -130,6 +128,8 @@ Ticket details (PNR, Price, Currency).
 5. Compare data types vs data formats in the context of your solution. 
 
 6. Explain the advantages of JSON over XML in airline booking systems. 
+
+
 
 Lab 4. Deep Dive into JSON in the Real World
 
@@ -146,8 +146,6 @@ PaymentStatus: "Success"
 1. Create a valid nested JSON for this dataset. 
 
 2. Identify JSON-supported data types used here. 
-
-  
 
 3. Show one invalid JSON version (with missing quotes or extra commas). 
 
@@ -173,8 +171,6 @@ IsInsured: true,
 
 Allergies: ["Peanuts", "Dust"] 
 
-  
-
 1. Identify data types for each attribute. 
 
 2. Represent the dataset in valid JSON format. 
@@ -186,8 +182,6 @@ Allergies: ["Peanuts", "Dust"]
 5. Compare JSON with CSV for storing this data. 
 
 6. Highlight why JSON is advantageous in healthcare data exchange. 
-
- 
 
  
 
