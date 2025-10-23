@@ -1,0 +1,16 @@
+{
+    "Location": "Richmond, VA",
+    "Year": 1993,
+    "Books": {
+        "Fiction": [
+            "Harry Potter",
+            "Pet Sematary",
+            "Goosebumps"
+        ],
+        "Non-Fiction": [
+            "Malcom X",
+            "CBT",
+            "Helping Skills"
+        ]
+    }
+}

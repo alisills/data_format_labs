@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<library>
+    <location>Richmond, VA</location>
+    <year>1993</year>
+    <books>
+        <fiction>
+            <harry_potter cost="$10 or ₹878"></harry_potter> 
+            <pet_sematary cost="$6 or ₹527"></pet_sematary> 
+            <goosebumps cost="$5 or ₹439"><goosebumps> 
+        </fiction>
+        <non_fiction>
+            <malcom_x cost="$7 or ₹615"></malcom_x>
+            <cbt cost="$40 or ₹3513"></cbt> 
+            <helping_skills cost="$120 ₹10,540"></helping_skills>
+        </non_fiction>
+    </books>
+</library>
