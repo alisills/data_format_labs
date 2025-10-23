@@ -262,17 +262,35 @@ AvailableOn: ["Android", "iOS", "Web"]
 
 3. Identify all JSON-supported data types in your dataset. 
 
+The JSON-supported data types in this dataset are numbers, strings, and numbers.
+
 4. Show an invalid JSON version and explain why it’s wrong. 
+
+{
+    "TrackID": 301,
+    "Title" "Shape of You",
+    "Artist": "Ed Sheeran",
+    "Duration": 4.24,
+    "AvailableOn: [
+        "Android",
+        "iOS",
+        "Web"
+    ],
+    "Album": [
+        "AlbumName",
+        "ReleaseYear"
+    ]
+}
+
+This is invalid due  to a missing semicolon next to title and quotation after AvailableOn.
 
 5. Convert the same data into XML format and compare JSON vs XML. 
 
 6. Explain how real-world apps like Spotify or YouTube Music benefit from JSON. 
 
- 
+ Spotify or YouTube benefits from JSON by allowing for ease of data transfer and integration. 
 
-
 
- 
 
 Create Xml and Convert them to Json for each lab 
  

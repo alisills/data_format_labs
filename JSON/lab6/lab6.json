@@ -1,0 +1,15 @@
+{
+    "TrackID": 301,
+    "Title": "Shape of You",
+    "Artist": "Ed Sheeran",
+    "Duration": 4.24,
+    "AvailableOn": [
+        "Android",
+        "iOS",
+        "Web"
+    ],
+    "Album": [
+        "AlbumName",
+        "ReleaseYear"
+    ]
+}

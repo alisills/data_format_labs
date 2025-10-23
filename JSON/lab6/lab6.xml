@@ -1,0 +1,15 @@
+<song>
+    <track_id>301</track_id>
+    <title>Shape of You</title>
+    <artist>Ed Sheeran</artist>
+    <duration>4.24</duration>
+    <available_on>
+        <android></android>
+        <ios></ios>
+        <web></web>
+    </available_on>
+    <album>
+        <album_name></album_name>
+        <release_year></release_year>
+    </album>
+</song>
